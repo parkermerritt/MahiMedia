@@ -6,4 +6,13 @@ float:right;}
 float:left;
 }
 
+ .teamdescripta {
+  width:40%;
+ float:left;
+ }
+ 
+ .teamdescriptb {
+   width:40%;
+ float:right;
+ }
 }

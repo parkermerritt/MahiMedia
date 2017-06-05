@@ -1,132 +1,157 @@
+<!DOCTYPE html>
 <html>
-<head>
-<meta name="google-site-verification" content="l1nN-AmoC3YDNeEuCy1TG7-Qw3Gpc7M5EnUDTQzbd8Q" />
-<title>Mahi Media</title>
-  
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
-
-<style>
-body {margin: 0;}
-  
-  h2 {
-    font-family: 'Baloo Bhaina', cursive;
-    font-size: 50px;
-    margin-top: -5px;
-    margin-bottom: -15px;
-  }
-
-  ul.sidenav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 15%;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-  }
-  
-  ul.sidenav li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
- 
-  ul.sidenav li a.active {
-    background-color: #1e90ff;
-    color: white;
-  } 
-
-  ul.sidenav li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-  }
-
-  div.content {
-    margin-left: 15%;
-    padding: 1px 16px;
-    height: 1000px;
-}
-
-  @media screen and (max-width: 1050px){
-    ul.sidenav {
-        width:100%;
-        height:auto;
-        position:relative;
-    }
-    ul.sidenav li a {
-        float: left;
-        padding: 15px;
-    }
-    div.content {margin-left:0;}
-  }
-
-  @media screen and (max-width: 400px){
-    ul.sidenav li a {
-        text-align: center;
-        float: none;
-    }
-  }
-  
-/* start heading picture */
-  .containerBox {
-    position: relative;
-    display: inline-block;
-}
-.text-box {
-    position: absolute;    
-    height: 100%;
-    text-align: center;    
-    width: 100%;
-}
-.text-box:before {
-   content: '';
-   display: inline-block;
-   height: 100%;
-   vertical-align: middle;
-}
-#mahi {
-   position: absolute;
-   display: inline-block;
-   font-size: 75px;
-   left: 160px;
-   top: 160px;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: 50%;
-  width: auto; 
-}
-  /* end of heading picture  */
-  
-</style>
-</head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 <body>
 
-<ul class="sidenav">
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="portfolio.html">Portfolio</a></li>
-  <li><a href="merch.html">Merch</a></li>
-  <li><a href="contact.html">Contact</a></li>
-  <li><a href="aboutUs.html">About Us</a></li>
-</ul>
-
-<div class="content">
-  <div class="containerBox">
-    <div class="text-box">
-      <h2 id="mahi"><em>Mahi Media</em></h2>
+<!-- Navbar -->
+<div class="w3-top w3-center">
+  <div class="w3-theme">
+  	<div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-padding-16">About</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-16">Home</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-16">Contact</a>
     </div>
-    <img class="img-responsive" src="http://i.imgur.com/cIIWYMa.jpg"/>
   </div>
-  <p>Mahi Media is a rising media company originated in Gaineseville, Florida. </p>
-  <p>Our skills consist of graphic design, web design, photography, videography, broadcasting and marketing.</p>
-  <p>Check the site regularly for updates and to browse any additions to our portfolio.</p>
-  <h4>Hire Us</h4>
 </div>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <div class="w3-center">
+  <h1 class="w3-padding-64 w3-xxxlarge w3-animate-bottom">MAHI MEDIA</h1>
+  </div>
+</header>
+
+<!-- 3 columns -->
+<div class="w3-row-padding w3-center w3-margin-top">
+  <div class="w3-third">
+    <div class="w3-card-2 w3-container" style="min-height:460px">
+    <h3>Capture</h3><br>
+    <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+    <p>blah</p>
+    <p>blah</p>
+    <p>blah</p>
+    <p>blah</p>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card-2 w3-container" style="min-height:460px">
+    <h3>Brand</h3><br>
+    <i class="fa fa-css3 w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+    <p>placeholder</p>
+    <p>placeholder</p>
+    <p>placeholder</p>
+    <p>placeholder</p>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card-2 w3-container" style="min-height:460px">
+    <h3>Market</h3><br>
+    <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+    <p>placeholder</p>
+    <p>placeholder</p>
+    <p>placeholder</p>
+    <p>placeholder</p>
+    </div>
+  </div>
+</div>
+<!-- end of columns -->
+
+<!-- Quick Services & Clients Section -->
+<div class="w3-row-padding w3-container w3-padding-32">
+	<div class="w3-content">
+    	<div class="w3-twothird">
+        	<h2>Quick Services</h2>
+            <div class="w3-row-padding">
+            	<div class="w3-content">
+                	<img src="#" alt="logo design" class="w3-half">
+                	<p class="w3-half">Logo Design ........</p>
+                </div>
+                <div class="w3-content">
+                	<img src="#" alt="snapchat filter" class="w3-half">
+                  	<p class="w3-half">Snapchat Filter ........</p>
+                </div>
+                <div class="w3-content">
+                	<img src="#" alt="photo/film" class="w3-half">
+                 	<p class="w3-half">Photo / Film ........</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-third">
+        	<h2>Clients</h2>
+            <div class="w3-row-padding">
+            	<div class="w3-content">
+                	<img src="#" alt="client1" class="w3-half">
+                    <p class="w3-half">OZona</p>
+                </div>
+                <div class="w3-content">
+                	<img src="#" alt="client2" class="w3-half">
+                    <p class="w3-half">Daniel Nunez</p>
+                </div>
+                <div class="w3-content">
+                	<img src="#" alt="client3" class="w3-half">
+                    <p class="w3-half">Propaganjah</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- The Team (about us) -->
+<h2 class="w3-center">THE TEAM</h2>
+<div class="w3-row-padding w3-container w3-padding-32">
+	<div class="w3-content">
+    	<div class="w3-half">
+        	<div class="w3-row-padding">
+        		<img src="#" alt="p diddy" class="w3-third">
+                <p class="w3-twothird">About Parker ....</p>
+            </div>
+       	</div>
+        <div class="w3-half">
+        	<div class="w3-row-padding">
+        		<img src="#" alt="crowbar" class="w3-third">
+                <p class="w3-twothird">About Sammy ....</p>
+            </div>
+       	</div>
+    </div>
+    <div class="w3-content">
+    	<div class="w3-half">
+        	<div class="w3-row-padding">
+        		<img src="#" alt="the bell" class="w3-third">
+                <p class="w3-twothird">About Mark ....</p>
+            </div>
+       	</div>
+        <div class="w3-half">
+        	<div class="w3-row-padding">
+        		<img src="#" alt="notaplug" class="w3-third">
+                <p class="w3-twothird">About Andy ....</p>
+            </div>
+       	</div>
+    </div>
+</div>
+
+
+
+
+  
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-theme-dark w3-padding-16">
+  <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-theme-light w3-padding">Go To Top</span>    
+    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
 
 </body>
 </html>

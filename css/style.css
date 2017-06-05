@@ -2,7 +2,8 @@
  #teamiconsa {width:60%;
 float:right;}
 
- @media only screen and (min-height: 420px)
  #teamiconsb {width:60%;
 float:left;
+}
+
 }

@@ -1,32 +1,42 @@
-
-
 title,h1,h2,h3 {font-family: 'Denk One', sans-serif;}
 
+/* Settings for Social Media Icons */
+i#fb:hover {color: #3b5998;}
+i#ig:hover {color: #bc2a8d;}
+i#twit:hover {color: #00aced;}
+
+#ig, #fb, #twit {
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* End of Social Media Icons */
 
 @media only screen and (max-width: 500px){
- #teamiconsa {width:60%;
-  padding:0;
-float:right;}
+    #teamiconsa {
+        width:60%;
+        padding:0;
+        float:right;
+    }
 
- #teamiconsb {width:60%;
-  padding:0;
-float:left;
-}
+    #teamiconsb {
+        width:60%;
+        padding:0;
+        float:left;
+    }
 
- .teamdescripta {
-  padding:12px;
-  width:40%;
- float:left;
- }
+    .teamdescripta {
+        padding:12px;
+        width:40%;
+        float:left;
+    }
  
- .teamdescriptb {
-  padding:12px;
-   width:40%;
- float:right;
- }
+    .teamdescriptb {
+        padding:12px;
+        width:40%;
+        float:right;
+    }
  
- .smallfont {
-  font-size:small
- }
+    .smallfont {
+        font-size:small
+    }
 }
-

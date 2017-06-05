@@ -14,15 +14,17 @@ float:left;
 }
 
  .teamdescripta {
-   font-size:small;
   width:40%;
  float:left;
  }
  
  .teamdescriptb {
-  font-size:small;
    width:40%;
  float:right;
+ }
+ 
+ .smallfont {
+  font-size:small
  }
 }
 

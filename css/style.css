@@ -14,11 +14,13 @@ float:left;
 }
 
  .teamdescripta {
+  padding:12px;
   width:40%;
  float:left;
  }
  
  .teamdescriptb {
+  padding:12px;
    width:40%;
  float:right;
  }

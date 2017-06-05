@@ -1,6 +1,6 @@
-<style>
 
-h1,h2,h3 {font-family: 'Denk One', sans-serif;}
+
+title,h1,h2,h3 {font-family: 'Denk One', sans-serif;}
 
 
 @media only screen and (max-width: 500px){
@@ -25,4 +25,4 @@ float:left;
  float:right;
  }
 }
-</style>
+

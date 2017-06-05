@@ -5,9 +5,11 @@ title,h1,h2,h3 {font-family: 'Denk One', sans-serif;}
 
 @media only screen and (max-width: 500px){
  #teamiconsa {width:60%;
+  padding:0;
 float:right;}
 
  #teamiconsb {width:60%;
+  padding:0;
 float:left;
 }
 

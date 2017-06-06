@@ -1,5 +1,337 @@
 title,h1,h2,h3 {font-family: 'Denk One', sans-serif;}
 
+
+
+
+
+
+
+
+body{
+  margin:0;
+  padding: 0;
+  background: #bf3944;
+}
+.sky{
+  height: 500px;
+  width: 100%;
+  .sun{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    &-1, &-2, &-3, &-4, &-2-pulse, &-3-pulse, &-4-pulse{
+      position: absolute;
+      border-radius: 100%;
+      left: 50%;
+    }
+    &-1{
+      width: 800px;
+      height: 800px;
+      background: #c74a48;
+      margin-left: -400px;
+      top: 100px;
+      z-index: 1;
+    }
+    &-2, &-2-pulse{
+      width: 700px;
+      height: 700px;
+      background: #d35b4d;
+      margin-left: -350px;
+      top: 150px;
+      z-index: 2;
+    }
+    &-3, &-3-pulse{
+      width: 600px;
+      height: 600px;
+      background: #df7452;
+      margin-left: -300px;
+      top: 200px;
+      z-index: 3;
+    }
+    &-4, &-4-pulse{
+      width: 500px;
+      height: 500px;
+      background: #ffd461;
+      margin-left: -250px;
+      top: 250px;
+      z-index: 4;
+      .face{
+        z-index: 8;
+        .left-eye{
+          width: 20px;
+          height: 20px;
+          background: #000000;
+          position: absolute;
+          border-radius: 100%;
+          top: 160px;
+          right: 95px;
+        }
+        .right-eye{
+          width: 20px;
+          height: 20px;
+          background: #000000;
+          position: absolute;
+          border-radius: 100%;
+          top: 160px;
+          right: 150px;
+        }
+        .left-eye-hidden{
+          width: 20px;
+          height: 20px;
+          background: #ffd461;
+          position: absolute;
+          border-radius: 100%;
+          top: 190px;
+          right: 95px;
+        }
+        .right-eye-hidden{
+          width: 20px;
+          height: 20px;
+          background: #ffd461;
+          position: absolute;
+          border-radius: 100%;
+          top: 190px;
+          right: 150px;
+        }
+        .smile{
+          width: 25px;
+          height: 20px;
+          position: absolute;
+          
+          border-bottom: 8px solid #000000;
+          border-radius:  100%;
+          top: 160px;
+          right: 119px;
+        }
+      }
+      &:hover{
+        .left-eye-hidden{
+          top: 170px;
+        }
+        .right-eye-hidden{
+          top: 170px;
+        }
+      }
+    }
+    &-4{
+      z-index: 8;
+    }
+    &-2-pulse ,&-3-pulse, &-4-pulse{
+      -webkit-animation: pulse 3s linear;
+      -moz-animation: pulse 3s linear;
+      animation: pulse 3s linear;
+      -moz-animation-iteration-count: infinite;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+    }
+  }
+}
+.sea{
+  background: rgba(166,66,92,1);
+  background: -moz-linear-gradient(top, rgba(166,66,92,1) 0%, rgba(65,168,243,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(166,66,92,1)), color-stop(100%, rgba(65,168,243,1)));
+  background: -webkit-linear-gradient(top, rgba(166,66,92,1) 0%, rgba(65,168,243,1) 100%);
+  background: -o-linear-gradient(top, rgba(166,66,92,1) 0%, rgba(65,168,243,1) 100%);
+  background: -ms-linear-gradient(top, rgba(166,66,92,1) 0%, rgba(65,168,243,1) 100%);
+  background: linear-gradient(to bottom, rgba(166,66,92,1) 0%, rgba(65,168,243,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6425c', endColorstr='#41a8f3', GradientType=0 );
+  width: 100%;
+  height: 200px;
+  .sun-reflec{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    &-overlay{
+      z-index: 8;
+      width: 100%;
+      height: 200px;
+      position: absolute;
+      background: rgba(166,66,92,0);
+      background: -moz-linear-gradient(top, rgba(166,66,92,0) 0%, rgba(166,66,92,0.15) 0%, rgba(136,97,137,0.69) 30%, rgba(118,115,164,0.93) 48%, rgba(90,143,205,1) 75%, rgba(65,168,243,1) 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(166,66,92,0)), color-stop(0%, rgba(166,66,92,0.15)), color-stop(30%, rgba(136,97,137,0.69)), color-stop(48%, rgba(118,115,164,0.93)), color-stop(75%, rgba(90,143,205,1)), color-stop(100%, rgba(65,168,243,1)));
+      background: -webkit-linear-gradient(top, rgba(166,66,92,0) 0%, rgba(166,66,92,0.15) 0%, rgba(136,97,137,0.69) 30%, rgba(118,115,164,0.93) 48%, rgba(90,143,205,1) 75%, rgba(65,168,243,1) 100%);
+      background: -o-linear-gradient(top, rgba(166,66,92,0) 0%, rgba(166,66,92,0.15) 0%, rgba(136,97,137,0.69) 30%, rgba(118,115,164,0.93) 48%, rgba(90,143,205,1) 75%, rgba(65,168,243,1) 100%);
+      background: -ms-linear-gradient(top, rgba(166,66,92,0) 0%, rgba(166,66,92,0.15) 0%, rgba(136,97,137,0.69) 30%, rgba(118,115,164,0.93) 48%, rgba(90,143,205,1) 75%, rgba(65,168,243,1) 100%);
+      background: linear-gradient(to bottom, rgba(166,66,92,0) 0%, rgba(166,66,92,0.15) 0%, rgba(136,97,137,0.69) 30%, rgba(118,115,164,0.93) 48%, rgba(90,143,205,1) 75%, rgba(65,168,243,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6425c', endColorstr='#41a8f3', GradientType=0 );
+    }
+    &-1, &-2, &-3, &-4, &-2-pulse, &-3-pulse, &-4-pulse{
+      position: absolute;
+      border-radius: 100%;
+      left: 50%;
+      margin-top:-500px;
+    }
+    &-1{
+      width: 800px;
+      height: 800px;
+      background: #c74a48;
+      margin-left: -400px;
+      top: 100px;
+      z-index: 1;
+    }
+    &-2, &-2-pulse{
+      width: 700px;
+      height: 700px;
+      background: #d35b4d;
+      margin-left: -350px;
+      top: 150px;
+      z-index: 2;
+    }
+    &-3, &-3-pulse{
+      width: 600px;
+      height: 600px;
+      background: #df7452;
+      margin-left: -300px;
+      top: 200px;
+      z-index: 3;
+    }
+    &-4, &-4-pulse{
+      width: 500px;
+      height: 500px;
+      background: #ffd461;
+      margin-left: -250px;
+      top: 250px;
+      z-index: 4;
+    }
+    &-2-pulse ,&-3-pulse, &-4-pulse{
+      -webkit-animation: pulse 3s linear;
+      -moz-animation: pulse 3s linear;
+      animation: pulse 3s linear;
+      -moz-animation-iteration-count: infinite;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+    }
+  }
+}
+.beach{
+  background: #ffd461;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  .man{
+    width: 800px;
+    height: 87px;
+    position: relative;
+    margin: 0 auto;
+    .step{
+      background: #e5b644;
+      width: 5px;
+      height: 3px;
+      border-radius: 4px;
+      position: absolute;
+      &-1{
+        top: 85px;
+        right: 165px;
+      }
+      &-2{
+        top: 80px;
+        right: 160px;
+      }
+      &-3{
+        top: 85px;
+        right: 155px;
+        opacity: 0.7;
+      }
+      &-4{
+        top: 80px;
+        right: 150px;
+        opacity: 0.7;
+      }
+      &-5{
+        top: 85px;
+        right: 145px;
+        opacity: 0.6;
+      }
+      &-6{
+        top: 80px;
+        right: 140px;
+        opacity: 0.6;
+      }
+      &-7{
+        top: 85px;
+        right: 135px;
+        opacity: 0.5;
+      }
+      &-8{
+        top: 80px;
+        right: 130px;
+        opacity: 0.5;
+      }
+      &-9{
+        top: 85px;
+        right: 125px;
+        opacity: 0.4;
+      }
+      &-10{
+        top: 80px;
+        right: 120px;
+        opacity: 0.4;
+      }
+      &-11{
+        top: 85px;
+        right: 115px;
+        opacity: 0.3;
+      }
+      &-12{
+        top: 80px;
+        right: 110px;
+        opacity: 0.3;
+      }
+      &-13{
+        top: 85px;
+        right: 105px;
+        opacity: 0.2;
+      }
+      &-14{
+        top: 80px;
+        right: 100px;
+        opacity: 0.2;
+      }
+      
+    }
+    
+
+@-webkit-keyframes "pulse" {
+ 0% {
+    -webkit-transform: scale(0);
+    opacity: 0.0;
+ }
+ 25% {
+    -webkit-transform: scale(1);
+    opacity: 0.1;
+ }
+ 50% {
+    -webkit-transform: scale(1.1);
+    opacity: 0.3;
+ }
+ 75% {
+    -webkit-transform: scale(1.2);
+    opacity: 0.5;
+ }
+ 100% {
+    -webkit-transform: scale(1.3);
+    opacity: 0.0;
+ }
+}
+
+
+/* sun test */
+
+
+
+
+
+
+
+
+
+
 /* Settings for Social Media Icons */
 i#fb:hover {color: #3b5998;}
 i#ig:hover {color: #bc2a8d;}

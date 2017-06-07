@@ -1,4 +1,8 @@
-title,h1,h2,h3 {font-family: 'Denk One', sans-serif;}
+title,h1,h2,h3 {font-family: 'Contrail One', cursive;}
+
+p,li {
+  font-family: 'Raleway', sans-serif;
+}
 
 ul li {
 font-size: 80%;

@@ -58,4 +58,8 @@ i#twit:hover {color: #00aced;}
 
 /* Style for ID's */
 
-header {background-image: url(../img/FoamyWaves.JPG);}
+header {
+    background-image: url(../img/FoamyWaves.JPG);
+    height:45vh;
+
+}

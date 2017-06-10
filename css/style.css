@@ -21,36 +21,42 @@ i#twit:hover {color: #00aced;}
 
 /* text classes */
 .third-text {
-  width:90%;
+  width:99%;
   margin: auto;
   text-align: center;
 }
 
 @media only screen and (max-width: 500px){
     #teamiconsa {
-        width:60%;
+        width:45%;
         padding:0;
         w3-padding-right: 2px;
         float:right;
+
     }
 
     #teamiconsb {
-        width:60%;
+        width:45%;
         padding:0;
         w3-padding-left: 2px;
         float:left;
     }
 
     .teamdescripta {
+      font-size:90%;
         padding:10px;
-        width:40%;
+        width:55%;
         float:left;
+        margin-bottom: 0px;
     }
 
     .teamdescriptb {
+      font-size:90%;
         padding:10px;
-        width:40%;
+        width:55%;
         float:right;
+        margin-bottom:0px;
+
     }
 
     .smallfont {

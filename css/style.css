@@ -26,10 +26,6 @@ i#twit:hover {color: #00aced;}
   text-align: center;
 }
 
-
-
-
-
 @media only screen and (max-width: 500px){
     #teamiconsa {
         width:60%;
@@ -59,3 +55,7 @@ i#twit:hover {color: #00aced;}
         font-size:small
     }
 }
+
+/* Style for ID's */
+
+header {background-image: url(../img/FoamyWaves.JPG);}

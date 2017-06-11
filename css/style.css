@@ -6,7 +6,7 @@ p,li {
 
 ul li {
 font-size: 80%;
-text-align: left;
+text-align: center;
 }
 /* Settings for Social Media Icons */
 i#fb:hover {color: #3b5998;}
@@ -69,24 +69,3 @@ header {
 
 /* Style for Tables */
 
-table {
-    margin:20px auto;
-    border-width: 1px;
-    border-style: solid;
-    border-color:white;
-    background-color:#20262e ;
-    width:100%;
-}
-table tr:nth-child(even) {
-background-color: rgb(46, 53, 62);
-}
-
-}
-
-td {
-    margin:20px auto;
-    border-width: 1px;
-    border-style: solid;
-    border-color: blue;
-    font-color:white;
-}

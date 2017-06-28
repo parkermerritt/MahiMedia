@@ -8,16 +8,7 @@ ul li {
 font-size: 80%;
 text-align: center;
 }
-/* Settings for Social Media Icons */
-i#fb:hover {color: #3b5998;}
-i#ig:hover {color: #bc2a8d;}
-i#twit:hover {color: #00aced;}
 
-#ig, #fb, #twit {
-    cursor: pointer;
-    transition: 0.3s;
-}
-/* End of Social Media Icons */
 
 /* text classes */
 .third-text {
@@ -27,12 +18,17 @@ i#twit:hover {color: #00aced;}
 }
 
 @media only screen and (max-width: 500px){
+  iframe {
+      width: 90%;
+      height: 30%;
+      box-shadow: none;
+    }
+  
     .teamiconsa {
         width:45%;
         padding:0;
         w3-padding-right: 2px;
         float:right;
-
     }
 
     .teamiconsb {
@@ -75,3 +71,13 @@ header {
 
 /* Style for Tables */
 
+/* Settings for Social Media Icons */
+i#fb:hover {color: #3b5998;}
+i#ig:hover {color: #bc2a8d;}
+i#twit:hover {color: #00aced;}
+
+#ig, #fb, #twit {
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* End of Social Media Icons */

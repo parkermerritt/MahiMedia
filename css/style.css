@@ -86,3 +86,10 @@ i#twit:hover {color: #00aced;}
     transition: 0.3s;
 }
 /* End of Social Media Icons */
+
+
+/* Clients */
+
+.ClientPics {
+  width: 100%; 
+}

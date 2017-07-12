@@ -1,12 +1,10 @@
 title,h1,h2,h3 {font-family: 'Contrail One', cursive;}
 
-p,li {
-  font-family: 'Raleway', sans-serif;
-}
+p,li {font-family: 'Raleway', sans-serif;}
 
 ul li {
-font-size: 80%;
-text-align: center;
+  font-size: 80%;
+  text-align: center;
 }
 
 iframe {
@@ -14,88 +12,82 @@ iframe {
   border: 2px solid black;
 }
 
+header {
+  background-image: url(../img/FoamyWaves4.jpg);
+  height: 45vh;
+}
 
 /* text classes */
 .third-text {
-  width:99%;
+  width: 99%;
   margin: auto;
   text-align: center;
 }
+/* end of text classes */
 
 @media only screen and (max-width: 500px){
   iframe {
-      width: 90%;
-      height: 30%;
-      box-shadow: none;
-    }
-  
-    .teamiconsa {
-        width:45%;
-        padding:0;
-        w3-padding-right: 2px;
-        float:right;
-    }
+    width: 90%;
+    height: 30%;
+    box-shadow: none;
+  }
 
-    .teamiconsb {
-        width:45%;
-        padding:0;
-        w3-padding-left: 2px;
-        float:left;
-    }
+  .teamiconsa {
+    width: 45%;
+    padding: 0;
+    w3-padding-right: 2px;
+    float: right;
+  }
 
-    .teamdescripta {
-      font-size:90%;
-        padding:10px;
-        width:55%;
-        float:left;
-        margin-bottom: 0px;
-    }
+  .teamiconsb {
+    width: 45%;
+    padding: 0;
+    w3-padding-left: 2px;
+    float: left;
+  }
 
-    .teamdescriptb {
-      font-size:90%;
-        padding:10px;
-        width:55%;
-        float:right;
-        margin-bottom:0px;
+  .teamdescripta {
+    font-size: 90%;
+    padding: 10px;
+    width: 55%;
+    float: left;
+    margin-bottom: 0px;
+  }
 
-    }
+  .teamdescriptb {
+    font-size: 90%;
+    padding: 10px;
+    width: 55%;
+    float: right;
+    margin-bottom: 0px;
+  }
 
-    .smallfont {
-        font-size:small
-    }
+  .smallfont {
+    font-size: small
+  }
 }
 
-/* Style for ID's */
-
-header {
-    background-image: url(../img/FoamyWaves4.jpg);
-    height:45vh;
-
-}
-
-
-/* Style for Tables */
 
 /* Settings for Social Media Icons */
 i#fb:hover {color: #3b5998;}
 i#ig:hover {color: #bc2a8d;}
 i#twit:hover {color: #00aced;}
+i#yt:hover {color: #ff0000}
 
-#ig, #fb, #twit {
-    cursor: pointer;
-    transition: 0.3s;
+#ig, #fb, #twit, #yt{
+  cursor: pointer;
+  transition: 0.4s;
 }
 /* End of Social Media Icons */
 
 
 /* Clients */
-
 .ClientPics {
-  width: 100%; 
+  width: 100%;
   margin-top: 14%;
-
 }
 
 #KatastroPic {
-  margin-left:5%;
+  margin-left: 5%;
 }
+/* End of Clients */

@@ -1,5 +1,9 @@
 title,h1,h2,h3 {font-family: 'Contrail One', cursive;}
 
+h1 {
+  font-size: 50px;
+}
+
 p,li {font-family: 'Raleway', sans-serif;}
 
 ul li {
@@ -65,6 +69,10 @@ header {
   .smallfont {
     font-size: small
   }
+
+  .ClientPics {
+    max-width: 90vw;
+  }
 }
 
 
@@ -77,7 +85,7 @@ i#sp:hover {color: #1ED760;}
 
 #ig, #fb, #twit, #yt, #sp {
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 /* End of Social Media Icons */
 
@@ -85,10 +93,23 @@ i#sp:hover {color: #1ED760;}
 /* Clients */
 .ClientPics {
   width: 100%;
-  margin-top: 14%;
+  padding-bottom: 1%;
 }
 
-#KatastroPic {
-  margin-left: 5%;
+.ClientHeader {
+  padding-top: 4%;
 }
+
+.ClientContent {
+  padding: 4% 0;
+}
+
+.video-left {
+  padding-right: 4%;
+}
+
+.video-right {
+  padding-left: 4%;
+}
+
 /* End of Clients */
